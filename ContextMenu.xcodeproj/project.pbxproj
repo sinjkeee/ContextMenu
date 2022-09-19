@@ -54,14 +54,38 @@
 		2AABF1CD28D8917800881E2D /* ContextMenu */ = {
 			isa = PBXGroup;
 			children = (
-				2AABF1CE28D8917800881E2D /* AppDelegate.swift */,
-				2AABF1D028D8917800881E2D /* SceneDelegate.swift */,
+				2AABF1E428D8961C00881E2D /* Application */,
+				2AABF1E228D895F800881E2D /* Controllers */,
+				2AABF1E328D8960700881E2D /* Resources */,
+			);
+			path = ContextMenu;
+			sourceTree = "<group>";
+		};
+		2AABF1E228D895F800881E2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				2AABF1D228D8917800881E2D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2AABF1E328D8960700881E2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2AABF1D728D8917A00881E2D /* Assets.xcassets */,
 				2AABF1D928D8917A00881E2D /* LaunchScreen.storyboard */,
 				2AABF1DC28D8917A00881E2D /* Info.plist */,
 			);
-			path = ContextMenu;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2AABF1E428D8961C00881E2D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2AABF1CE28D8917800881E2D /* AppDelegate.swift */,
+				2AABF1D028D8917800881E2D /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContextMenu/Info.plist;
+				INFOPLIST_FILE = ContextMenu/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -301,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContextMenu/Info.plist;
+				INFOPLIST_FILE = ContextMenu/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
